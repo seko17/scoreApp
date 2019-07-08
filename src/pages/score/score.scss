@@ -1,0 +1,225 @@
+page-score {
+
+  .container{
+    background-image: url('../../assets/imgs/person.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+    .header .toolbar[primary] .toolbar-background {
+        background: #050505;
+        background: -webkit-linear-gradient(right, #727772, 
+        #18222c);
+        background: -o-linear-gradient(right, #000000, #a4a8a3);
+        background: linear-gradient(to left, #000000, #b7bdb7);
+    }
+    .large-center-title {
+        text-align: center;
+        .toolbar-title {
+            font-size: 25px;
+            
+        }
+    }
+    .flex-container2 {
+        display: flex;
+     
+        background-color: #18222c;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        flex-direction: row;
+     justify-content: center;
+      }
+      .add{
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: flex-start;
+       
+    }
+    .name{
+      display: flex;
+      flex-direction: column;
+     justify-content: flex-end;
+  }
+   
+      .flex-container3 {
+        display: flex;
+        flex-wrap: nowrap;
+     
+       height: 20%;
+       
+        margin-left: 10%;
+       align-items: center;
+       position: absolute;
+       top:65vh;
+      }
+      .flex-container3 > div {
+       
+      margin: 2px;
+        text-align: center;
+        font-size: 5rem;
+        height: 25px;;
+      }  
+      .flex-container4 {
+        display: flex;
+        flex-wrap: nowrap;
+     
+       height: 20%;
+       
+        margin-left: 78%;
+       align-items: center;
+       position: absolute;
+       top:65vh;
+      }
+      .flex-container4 > div {
+       
+      margin: 2px;
+        text-align: center;
+        font-size: 5rem;
+        height: 25px;;
+      } 
+      
+      }
+      h1{
+        font-size: 2.5rem;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .flex1{
+   
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 30vh;
+      align-items: center;
+      align-content: center;
+  
+  }
+  
+     
+      
+      
+  
+  .pic1{
+     flex-basis: 30%;
+     height: 20vh;
+     background-image: url('../../assets/imgs/https___i.forbesimg.com_media_lists_teams_manchester-united_416x416.jpg');
+     background-position: center;
+     background-size: cover;
+ 
+      
+  }
+  .pic2{
+     
+     flex-basis: 30%;
+     height: 20vh;
+     background-image: url('../../assets/imgs/1200px-FC_Barcelona_\(crest\).svg.png');
+     background-position: center;
+     background-size: cover;
+   
+     
+  }
+  
+  .picsmid{
+   
+  flex-basis: 20%;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+ 
+  
+  }
+  h1{
+   
+    font-weight: bolder;
+    color:white;
+  }
+
+  .row{
+   
+
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2%;
+
+
+ 
+}
+.score{
+  
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .9);
+        text-align: center;
+        color: white;
+        font-size: 5rem;
+       
+}
+.score1{
+    border: 1px solid black;
+    width: 50vw;
+    height: 5vh;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .9);
+}
+
+.flex-container5 {
+ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 35%;
+  bottom: 0;
+ 
+}
+.flex-container5 > div {
+  text-align: center;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.button1{
+  height: 5%;
+  width: 80%;
+  color: white;
+  border-radius: 30px;
+  background: linear-gradient(120deg, #000000,#8b8d89, #000000);
+  position: absolute;
+  bottom: 20px;
+ 
+
+
+}
+h3{
+   font-size: 1000%;
+  font-weight: bolder;
+  color:white;
+}
+
+

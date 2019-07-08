@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-navbar primary [ngClass]="{'large-center-title': isWP}">
+      <ion-title style="text-align: center">
+      SCORE IT
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-content class="container" >
+
+    <div class="flex1">
+  
+        <div class="pic1"></div>
+        <div class="picsmid"><h3>:</h3></div>
+        <div class="pic2"></div>
+        </div>
+
+        <div class="row">
+            <div class="score">
+                <div>{{score1}}</div>
+            </div>
+
+            <div class="score2"></div>
+
+            <div class="score">
+                 <div >{{score2}}</div>
+            </div> 
+          </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+          <div class="row">
+              <div class="score">
+                  <div  (click)="incrementScore1()"><h1>+1</h1></div> 
+              </div>
+              <div class="score2"></div>
+              <div class="score"> 
+                <div (click)="incrementScore2()"><h1>+1</h1></div>
+              </div> 
+            </div>
+
+<!-- <div class="flex-container3">
+    <div>{{score1}}</div>
+</div>
+
+<div class="flex-container4">
+    <div >{{score2}}</div>
+</div> -->
+
+<div class="flex-container5">
+    <button ion-button class="button1" (click)="reset()"><h2>Reset</h2></button>
+</div>
+
+</ion-content>
